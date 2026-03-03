@@ -1,0 +1,25 @@
+{
+  "name": "minion",
+  "version": 2,
+  "regions": ["lhr1"],
+  "env": {
+    "POSTGRES_URL_NON_POOLING": "@postgres_url_non_pooling",
+    "POSTGRES_URL": "@postgres_url",
+    "POSTGRES_HOST": "@postgres_host",
+    "POSTGRES_USER": "@postgres_user",
+    "POSTGRES_PASSWORD": "@postgres_password",
+    "POSTGRES_DATABASE": "@postgres_database",
+    "SUPABASE_URL": "@supabase_url",
+    "SUPABASE_SERVICE_ROLE_KEY": "@supabase_service_role_key",
+    "SUPABASE_JWT_SECRET": "@supabase_jwt_secret",
+    "IPFS_ENDPOINT": "https://ipfs.infura.io:5001",
+    "MODEL_CASCADE_ENABLED": "true",
+    "MODEL_DRAFT": "gpt-4o-mini",
+    "MODEL_VERIFY": "gpt-4o",
+    "OPERATOR_SIGNING_KEY": "@operator_signing_key",
+    "ATTESTATION_ENABLED": "true"
+  },
+  "git": {
+    "deploymentEnabled": true
+  }
+}
